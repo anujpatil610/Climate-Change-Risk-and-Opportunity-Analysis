@@ -1,0 +1,137 @@
+Selected_Features
+Year
+Account number
+Organization
+Country
+Primary activity
+Primary sector
+Primary industry
+ISINs
+Tickers
+Authority types
+C2.1a_C1_ short-term time horizon? - From (years)
+C2.1a_C1_medium-term time horizon? - From (years)
+C2.1a_C1_long-term time horizon? - From (years)
+C2.1a_C2_short-term time horizon? - To (years)
+C2.1a_C2_medium-term time horizon? - To (years)
+C2.1a_C2_long-term time horizon? - To (years)
+C2.2a_C1_assessed risks types_Current regulation
+C2.2a_C1_assessed risks types_Current regulation_Code
+C2.2a_C1_assessed risks types_Emerging regulation
+C2.2a_C1_assessed risks types_Emerging regulation_Code
+C2.2a_C1_assessed risks types_Technology 
+C2.2a_C1_assessed risks types_Technology_Code
+C2.2a_C1_assessed risks types_Legal 
+C2.2a_C1_assessed risks types_Legal_Code
+C2.2a_C1_assessed risks types_Market 
+C2.2a_C1_assessed risks types_Market_Code
+C2.2a_C1_assessed risks types_Reputation 
+C2.2a_C1_assessed risks types_Reputation_Code
+C2.2a_C1_assessed risks types_Acute physical 
+C2.2a_C1_assessed risks types_Acute physical_Code
+C2.2a_C1_assessed risks types_Chronic physical 
+C2.2a_C1_assessed risks types_Chronic physical_Code
+C3.3_C1_ strategic influence_risks_opportunity_Products and services
+C3.3_C1_ strategic influence_risks_opportunity_Products and services_Code
+C3.3_C1_ strategic influence_risks_opportunity_Supply chain and/or value chain
+C3.3_C1_ strategic influence_risks_opportunity_Supply chain and/or value chain_Code
+C3.3_C1_ strategic influence_risks_opportunity_Investment in R&D
+C3.3_C1_ strategic influence_risks_opportunity_Investment in R&D_Code
+C3.3_C1_ strategic influence_risks_opportunity_Operations
+C3.3_C1_ strategic influence_risks_opportunity_Operations_Code
+C5.1_C1_Scope1_Base year end
+C5.1_C1_Scope1_Base year emissions_MT_CO2e
+C5.1_C1_Scope 2 (location-based)_Base year start
+C5.1_C1_Scope 2 (location-based)_Base year end
+C5.1_C1_Scope2(location-based)_Base year emissions_MT_CO2e
+C5.1_C1_Scope 2 (Market-based)_Base year end
+C5.1_C1_Scope 2 (market-based)_Base year emissions_MT_CO2e
+C6.1_C1_Scope 1_MT_-Y1
+C6.1_C1_Scope 1_MT_-Y2
+C6.1_C1_Scope 1_MT_-Y3
+C6.3_C1_Scope 2_MT_-Y1_location
+C6.3_C1_Scope 2_MT_-Y2_location
+C6.3_C1_Scope 2_MT_-Y3_location
+C6.3_C2_Scope 2_MT_-Y1_market
+C6.3_C2_Scope 2_MT_-Y2_market
+C6.5_C2_Sc3_MT_End of life treatment of sold products
+C6.5_C4_Sc3_Partner_Percent_Purchased goods and services
+C6.5_C4_Sc3_Capital goods
+C6.5_C4_Sc3_Fuel-and-energy-related activities (not included in Scope 1 or 2)
+C6.5_C4_Sc3_Upstream transportation and distribution
+C6.5_C4_Sc3_Waste generated in operations
+C6.5_C4_Sc3_Business travel
+C6.5_C4_Sc3_Employee commuting
+C6.5_C4_Sc3_Upstream leased assets
+C6.5_C4_Sc3_Downstream transportation and distribution
+C6.5_C4_Sc3_Use of sold products
+C6.5_C4_Sc3_End of life treatment of sold products
+C8.1_What percentage of your total operational spend in the reporting year was on energy?
+C8.2_C1_Consumption of fuel (excluding feedstocks)
+C8.2_C1_Consumption of purchased or acquired electricity
+C8.2_C1_Consumption of purchased or acquired heat
+C8.2_C1_Consumption of purchased or acquired steam
+C8.2_C1_Consumption of purchased or acquired cooling
+"C8.2_C1_Generation of electricity, heat, steam, or cooling"
+C8.2a_C1_Consumption of fuel (excluding feedstock) in MWh. - Heating value
+C8.2a_C2_Consumption of purchased or acquired electricity (excluding feedstocks) in MWh. - MWh from renewable sources
+C8.2a_C2_Consumption of purchased or acquired heat(excluding feedstocks) in MWh. - MWh from renewable sources
+C8.2a_C2_Consumption of purchased or acquired steam (excluding feedstocks) in MWh. - MWh from renewable sources
+C8.2a_C2_Consumption of self-generated non-fuel renewable energy (excluding feedstocks) in MWh. - MWh from renewable sources
+C8.2a_C2_Total energy consumption(excluding feedstocks) in MWh. - MWh from renewable sources
+C8.2a_C3_Consumption of purchased or acquired heat (excluding feedstocks) in MWh. - MWh from non-renewable sources
+C8.2a_C3_Consumption of purchased or acquired steams (excluding feedstocks) in MWh. - MWh from non-renewable sources
+C8.2a_C4_Consumption of purchased or acquired electricity (excluding feedstocks) in MWh. - Total (renewable and non-renewable) MWh
+C8.2a_C4_Consumption of purchased or acquired heat(excluding feedstocks) in MWh. - Total (renewable and non-renewable) MWh
+C8.2a_C4_Consumption of purchased or acquired steam(excluding feedstocks) in MWh. - Total (renewable and non-renewable) MWh
+C8.2a_C4_Consumption of self-generated non-fuel renewable energy (excluding feedstocks) in MWh. - Total (renewable and non-renewable) MWh
+C8.2a_C4_Total energy consumption(excluding feedstocks) in MWh. - Total (renewable and non-renewable) MWh
+C8.2b_C1_Consumption of fuel for the generation of electricity
+C8.2b_C1_Consumption of fuel for the generation of heat
+C8.2b_C1_Consumption of fuel for the generation of steam
+C8.2b_C1_Consumption of fuel for the generation of cooling
+C8.2b_C1_Consumption of fuel for co-generation or tri-generation
+C8.2d_C1_Heat- Total Gross generation (MWh) 
+C8.2d_C1_Cooling - Total Gross generation (MWh) 
+C8.2d_C2_Electricity - Generation that is consumed by the organization (MWh) 
+C8.2d_C2_Heat - Generation that is consumed by the organization (MWh)
+C8.2d_C2_Cooling- Generation that is consumed by the organization (MWh) 
+C8.2d_C3_Heat - Gross generation from renewable sources (MWh) 
+C8.2d_C3_Cooling - Gross generation from renewable sources (MWh) 
+C8.2d_C4_Heat - Generation from renewable sources that is consumed by the organization (MWh) 
+C8.2d_C4_Cooling - Generation from renewable sources that is consumed by the organization (MWh) 
+C10.1_C1_Verif_status_Scope1
+C10.1_C1_Verif_status_Scope2
+C10.1_C1_ status_Scope3
+Rating
+C12.1b_C1_Cust_Eng_Type
+C12.1b_C2_Cust_Eng_Details
+C12.1b_C3_Cust_Eng_ %_No
+C12.1b_C5_Cust_Eng_Portfolio
+C12.1b_C6_Cust_Eng_Rationale
+C12.1b_C7_Cust_Eng_Impact_Measures
+C12.1b_C1_Cust_SC3_Eng_Type
+C12.1b_C2_Cust_SC3_Eng_Details
+C12.1b_C4_Cust_Eng_SC_3
+C12.1b_C6_Cust_Eng_SC3_Rationale
+C12.1b_C7_Cust_Eng_SC3_Impact_Measures
+C12.1a_C1_Provide details of your climate-related supplier engagement strategy_SuppNo. - Type of engagement
+C12.1a_C2_Provide details of your climate-related supplier engagement strategy_SuppNo. - Details of engagement
+C12.1a_C3_Provide details of your climate-related supplier engagement strategy. - % of suppliers by number
+C12.1a_C1_Provide details of your climate-related supplier engagement strategy_Spend. - Type of engagement
+C12.1a_C2_Provide details of your climate-related supplier engagement strategy_Spend. - Details of engagement
+C12.1a_C4_Provide details of your climate-related supplier engagement strategy. - % total procurement spend (direct and indirect)
+C12.1a_C1_Provide details of your climate-related supplier engagement strategy_SC3. - Type of engagement
+C12.1a_C2_Provide details of your climate-related supplier engagement strategy_SC3. - Details of engagement
+C12.1a_C5_Provide details of your climate-related supplier engagement strategy. - % of supplier-related Scope 3 emissions as reported in C6.5
+C0.1_Give a general description and introduction to your organization
+C0.3_Select the countries/areas for which you will be supplying data
+C0.4_Select the currency used for all financial information disclosed throughout your response
+C0.5_Select the option that describes the reporting boundary for which climate-related impacts on your business are being reported. Note that this option should align with your chosen approach for consolidating your GHG inventory
+C0.2_C3_State the start and end date of the year for which you are reporting data. - Indicate if you are providing emissions data for past reporting years
+C0.2_C4_State the start and end date of the year for which you are reporting data. - Select the number of past reporting years you will be providing emissions data for
+C1.1_Is there board-level oversight of climate-related issues within your organization?
+C1.3_C1_Do you provide incentives for the management of climate-related issues including the attainment of targets?
+C2.1_Does your organization have a process for identifying assessing and responding to climate-related risks and opportunities?
+C2.3_Have you identified any inherent climate-related risks with the potential to have a substantive financial or strategic impact on your business?
+C2.4_Have you identified any climate-related opportunities with the potential to have a substantive financial or strategic impact on your business?
