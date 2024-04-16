@@ -9,8 +9,6 @@ The EmissionsImpact-Analyzer is a machine learning project designed to assess ca
 ## Authors
 - Anuj Patil
 - Srideepthi Vootla
-- Jayakishan Minnekanti
-- Srihaarika Viswanadhapalli
 
 ## Objective
 To analyze and predict the carbon emissions of different organizations and sectors using machine learning techniques, providing a basis for informed climate change interventions.
