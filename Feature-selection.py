@@ -32,8 +32,11 @@ def main():
     X = pd.get_dummies(X)
 
     # Split the data into training and testing sets
+    # Splitting the dataset into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    print("Data split into training and testing sets.")
+
+    # Capture the indices of the test set which you'll need later
+    X_test_indices = X_test.index
 
     # Lasso Regression for feature selection
     lasso = Lasso(alpha=0.1)
