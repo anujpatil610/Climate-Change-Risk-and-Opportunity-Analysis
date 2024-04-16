@@ -35,12 +35,23 @@ def load_data():
 def plot_actual_vs_predicted(actual, predictions):
     """Plot actual vs predicted values in a scatter plot to visualize the accuracy of predictions."""
     plt.figure(figsize=(10, 6))
-    sns.scatterplot(x=actual, y=predictions)
+    
+    # Scatter plot for actual emissions
+    sns.scatterplot(x=actual, y=actual, color="blue", label='Actual Emissions')
+    
+    # Scatter plot for predicted emissions
+    sns.scatterplot(x=actual, y=predictions, color="red", label='Predicted Emissions')
+    
     plt.title('Actual vs Predicted Emissions')
     plt.xlabel('Actual Emissions')
-    plt.ylabel('Predicted Emissions')
-    plt.plot([actual.min(), actual.max()], [actual.min(), actual.max()], 'k--')
+    plt.ylabel('Emissions Value')
+    
+    # Ideal line where predicted matches actual
+    plt.plot([actual.min(), actual.max()], [actual.min(), actual.max()], 'k--', label='Ideal Prediction Line')
+    
+    plt.legend()
     plt.show()
+
 
 def plot_error_distribution(actual, predictions):
     """Plot the distribution of prediction errors."""
