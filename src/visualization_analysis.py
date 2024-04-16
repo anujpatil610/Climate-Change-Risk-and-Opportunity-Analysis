@@ -15,14 +15,22 @@ feature importance charts.
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error, r2_score
+import joblib  # for loading the model
+import numpy as np
 
 def load_data():
     """Load the actual and predicted emissions data for visualization."""
-    actual = pd.read_csv('data/y_test.csv')  # Adjust path as needed
-    predictions = pd.read_csv('results/predictions.csv')  # Adjust path as needed
-    return actual, predictions
+    try:
+        actual = pd.read_csv('data/y_test.csv')  # Ensure this contains the target column 'Total_Emissions'
+        predictions = pd.read_csv('results/predictions.csv')  # Ensure this contains 'Predicted_Emissions'
+        return actual['Total_Emissions'], predictions['Predicted']
+    except FileNotFoundError as e:
+        print(f"Error loading data: {e}")
+        exit()
+    except KeyError as e:
+        print(f"Column missing in data: {e}")
+        exit()
+
 
 def plot_actual_vs_predicted(actual, predictions):
     """Plot actual vs predicted values in a scatter plot to visualize the accuracy of predictions."""
@@ -44,9 +52,10 @@ def plot_error_distribution(actual, predictions):
     plt.ylabel('Frequency')
     plt.show()
 
-def plot_feature_importance(model, feature_names):
+def plot_feature_importance(model):
     """Plot the feature importance from the RandomForest model."""
     importances = model.feature_importances_
+    feature_names = model.feature_names_in_
     indices = np.argsort(importances)[::-1]
 
     plt.figure(figsize=(10, 6))
@@ -59,12 +68,11 @@ def plot_feature_importance(model, feature_names):
 
 def main():
     actual, predictions = load_data()
-    model = RandomForestRegressor()  # Assuming the model is already fitted and saved, load it if not
-    feature_names = ['feature1', 'feature2', 'feature3', 'etc']  # Replace with actual feature names
+    model = joblib.load('models/random_forest_model.joblib')  # Load the fitted model
 
-    plot_actual_vs_predicted(actual['Total_Emissions'], predictions['Predicted_Emissions'])
-    plot_error_distribution(actual['Total_Emissions'], predictions['Predicted_Emissions'])
-    plot_feature_importance(model, feature_names)
+    plot_actual_vs_predicted(actual, predictions)
+    plot_error_distribution(actual, predictions)
+    plot_feature_importance(model)
 
 if __name__ == '__main__':
     main()
